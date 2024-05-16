@@ -1,0 +1,14 @@
+C:\Users\gabri\source\repos\Desafio Benner\bin\Debug\net8.0\Desafio Benner.exe
+C:\Users\gabri\source\repos\Desafio Benner\bin\Debug\net8.0\Desafio Benner.deps.json
+C:\Users\gabri\source\repos\Desafio Benner\bin\Debug\net8.0\Desafio Benner.runtimeconfig.json
+C:\Users\gabri\source\repos\Desafio Benner\bin\Debug\net8.0\Desafio Benner.dll
+C:\Users\gabri\source\repos\Desafio Benner\bin\Debug\net8.0\Desafio Benner.pdb
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.AssemblyInfo.cs
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.dll
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\refint\Desafio Benner.dll
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.pdb
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\Desafio Benner.genruntimeconfig.cache
+C:\Users\gabri\source\repos\Desafio Benner\obj\Debug\net8.0\ref\Desafio Benner.dll
