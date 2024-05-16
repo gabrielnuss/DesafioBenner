@@ -5,18 +5,30 @@ using System.Linq;
 public class Network
 {
     private List<(int, int)> conexoesDiretas;
+    int tamanhoMax;
 
-    public Network()
+    public Network(int tamanho)
     {
+        if (tamanho < 0) {
+            throw new ArgumentException("Número de posições deve ser positivo.");
+        }
         conexoesDiretas = new List<(int, int)>();
+        tamanhoMax = tamanho;
     }
-    //Fazer VERIFICAÇÔES E TRATAR EXCEÇÔES
     public void Connect(int elemento1, int elemento2)
     {
+        if (elemento1 < 0 || elemento2 < 0 || elemento1 > tamanhoMax || elemento2 > tamanhoMax)
+        {
+            throw new ArgumentException("Valores inválidos para conexão.");
+        }
         conexoesDiretas.Add((elemento1, elemento2));
     }
 
     public bool query(int elemento1, int elemento2) {
+        if (elemento1 < 0 || elemento2 < 0 || elemento1 > tamanhoMax || elemento2 > tamanhoMax)
+        {
+            throw new ArgumentException("Valores inválidos para busca de conexão.");
+        }
         if (VerificarConexaoDireta(elemento1, elemento2)) {
             return true;
         }  
@@ -58,7 +70,7 @@ public class Network
 
     public static void Main(string[] args)
     {
-        Network rede = new Network();
+        Network rede = new Network(10);
         rede.Connect(1, 2);
         rede.Connect(2, 3);
         rede.Connect(3, 4);
